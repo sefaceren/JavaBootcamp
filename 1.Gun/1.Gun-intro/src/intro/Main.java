@@ -42,6 +42,7 @@ public class Main {
 			"Motor Kredi"
 		};
 		
+		//foreach
 		for(String kredi: krediler) {
 			System.out.println(kredi);
 		}
