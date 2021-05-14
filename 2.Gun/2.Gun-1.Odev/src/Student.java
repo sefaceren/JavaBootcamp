@@ -1,19 +1,20 @@
 
 public class Student {
 
-	public Student(int id,String name,String email) {
+	private int id;
+	String name;
+	String email;
+	int grade;
+	
+	public Student(int id,String name,String email,int grade) {
 		this.id = id;
 		this.name = name;
 		this.email = email;
+		this.grade = grade;
 	}
 	
-	public int getId() {
-		return id;
-	}
 
-	private int id = 1;
-	String name = "";
-	String email = "";
+	
 	
 	
 	
